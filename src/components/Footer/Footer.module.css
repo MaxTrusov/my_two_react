@@ -1,0 +1,10 @@
+footer{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    background: rgba(10,10,10, 0.8);
+}
+footer h3{
+    text-align: center;
+    color: darkgoldenrod;
+}

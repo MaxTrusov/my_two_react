@@ -1,0 +1,50 @@
+.header{ 
+    max-width: 100%;   
+    margin: 0; 
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;   
+}
+.wrapp_bg{
+    background: rgba(94, 93, 92, 0.8);
+}
+.wrapp_header{    
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_bottom{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+form{
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+    padding: 5px 0;
+}
+
+.btn_header{    
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    padding: 5px 0;
+}
+.btn_header button{
+    margin: 0 5px;
+}
+input, button{
+    border: none;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+button{
+    background-color: rgba(3, 223, 69,0.7);
+}
